@@ -13,4 +13,3 @@ class BemVindo():
     print('Bem Vindo!')
 
 oi = BemVindo()
-
