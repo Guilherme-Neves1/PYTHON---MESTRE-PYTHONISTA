@@ -59,3 +59,29 @@ elif 61 <= velocidade <= 75:
   print('Você será multado em 3 pontos')
 else:
   print('Você será multado em 7 pontos')
+
+print('----------------------DESAFIO--------------------------')
+
+# DESAFIO
+## Cenário: Você está montando um sistema para um salão de beleza para calcular o preço do corte de cabelos grandes que irá seguir as seguintes regras:
+# * Se seu cabelo estiver com ou abaixo de 20cm você paga o valor de R$50,00.
+# * Se seu cabelo estiver entre 21cm a 30cm você paga o valor de R$70,00.
+# * Se seu cabelo estiver entre 31cm a 50cm você paga o valor de R$100,00.
+# * Se seu cabelo estiver acima de 50cm, valor a combinar.
+
+# Declare uma variável que represente o tamanho atual do seu cabelo.
+tam_cabelo = 15
+if tam_cabelo <= 20:
+  print('O corte vai custar R$50,00.')
+
+elif 21 <= tam_cabelo <= 30: # Chaining
+# elif tam_cabelo >= 21 and tam_cabelo <= 30: # Forma comum
+  print('O corte vai custar R$70,00.')
+
+elif 31 <= tam_cabelo <= 50: # Chaining
+# elif tam_cabelo >= 31 and tam_cabelo <= 50: # Forma comum
+  print('O corte vai custar R$100,00.')
+
+else: 
+  print('O valor será a combinar na recepção.')
+
