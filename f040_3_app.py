@@ -16,3 +16,13 @@ print('Maior de idade') if idade >= 18 else print('Menor de idade')
 
 possui_passaporte = False
 print('Favor embarcar') if possui_passaporte == True else print('Favor tirar passaporte')
+
+print('--------------------------DESAFIO--------------------------')
+
+# DESAFIO
+## Use a expressão condicional(Operador Ternário) para criar a seguinte condição
+### * Se a velocidade estiver acima de 100, exibir: "Você foi multado".Caso contrário exiba siga em frente.
+### Declare uma variável com o valor de 80.
+
+velocidade = 80
+print('Você foi multado') if velocidade > 100 else print('Você não foi multado')
