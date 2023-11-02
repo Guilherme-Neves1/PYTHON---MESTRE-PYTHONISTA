@@ -48,3 +48,14 @@ elif velocidade >= 61 and velocidade <= 75:
   print('Você será multado em 3 pontos')
 else:
   print('Você será multado em 7 pontos')
+
+# Método Chaining
+velocidade = 100
+if velocidade <= 50:
+  print('Você não será multado.')
+elif 51 <= velocidade <= 60:
+  print('Você será multado em 2 pontos')
+elif 61 <= velocidade <= 75:
+  print('Você será multado em 3 pontos')
+else:
+  print('Você será multado em 7 pontos')
