@@ -17,3 +17,10 @@ nome = ''
 while nome == '':
   nome = input('Digite seu nome: \n')
 print(f'Bem vindo, {nome}')
+
+# Ver o pôr do Sol às 17:00
+horario = 0
+while horario <= 17:
+  print(horario)
+  horario += 1
+print('Hora de ir ver o pôr do Sol.')
