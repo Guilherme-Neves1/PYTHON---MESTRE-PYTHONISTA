@@ -11,3 +11,9 @@ senha = ''
 while senha != '123456':
   senha = input('Digite sua senha: \n')
 print('Bem Vindo!')
+
+# Receber o nome do usuário
+nome = ''
+while nome == '':
+  nome = input('Digite seu nome: \n')
+print(f'Bem vindo, {nome}')
