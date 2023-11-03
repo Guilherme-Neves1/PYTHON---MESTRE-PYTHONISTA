@@ -24,3 +24,10 @@ while horario <= 17:
   print(horario)
   horario += 1
 print('Hora de ir ver o pôr do Sol.')
+
+# Contagem regressiva
+contador = 100
+while contador >= 0:
+  print(contador)
+  contador -= 1
+  
