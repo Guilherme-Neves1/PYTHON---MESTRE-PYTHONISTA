@@ -36,7 +36,7 @@ while contador >= 0:
 # DESAFIO 1
 ## Crie um loop while que irá contar e imprimir no console de 1 até 120.
 
-num = 0
+num = 1
 while num <= 120:
   print(f'{num}')
   num += 1
@@ -47,12 +47,11 @@ while num <= 120:
 senha = ''
 while senha != 'secreto':
   senha = input('Digite a senha: \n')
-print('Bem vindo!')
 
 # DESAFIO 3
 ## Crie um loop que conte e imprima na tela o valor em ordem descrescente de 100 para 1.
 
 valor = 100
-while valor >= 0:
+while valor > 0:
   print(valor)
   valor -= 1
