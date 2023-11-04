@@ -24,6 +24,7 @@ for fruta in frutas:
 # DESAFIO 1
 ## Ao chegar ao estilo 'Rap', o mesmo não deve ser impresso na tela.
 estilos = ['Hip-Hop', 'Rock', 'Rap', 'Pop']
+
 for estilo in estilos:
   if estilo == 'Rap':
     continue
@@ -32,7 +33,7 @@ for estilo in estilos:
 # DESAFIO 2
 ## Use break ou continue para que a seguinte condição aconteça:
 ## Ao chegar em 'Rock', a execução deve parar.abs
-estilos = ['Hip-Hop', 'Rock', 'Rap', 'Pop']
+
 for estilo in estilos:
   if estilo == 'Rock':
     break
