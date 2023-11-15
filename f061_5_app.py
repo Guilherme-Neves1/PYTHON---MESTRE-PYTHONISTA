@@ -29,3 +29,10 @@ del anos[1]
 del valores[1:7]
 print(anos)
 print(valores)
+
+# Contando a ocorência de um valor
+print(valores.count(9))
+
+# Resetar
+valores.clear()
+print(valores)
