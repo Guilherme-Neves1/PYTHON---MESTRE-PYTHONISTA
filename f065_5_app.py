@@ -16,8 +16,20 @@ valor3 = 54
 
 # PODEMOS USAR AS TUPLAS
 sites = ('youtube.com', 'google.com', 'facebook.com')
-valores = (25, 33, 54)
+valores = (25, 33, 54, False)
 
 print(sites[2])
 print(valores[0])
 
+# Os valores não podem ser alterados
+# sites[1] = 'instagram.com' => Erro
+
+# União de tuplas
+dados_do_sistema = sites + valores
+print(dados_do_sistema)
+
+# Acesso de valores em uma tupla
+print(dados_do_sistema[2])
+
+print(sites)
+print(valores)
