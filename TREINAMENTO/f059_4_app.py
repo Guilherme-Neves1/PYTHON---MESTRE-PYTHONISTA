@@ -55,4 +55,4 @@ print(objetos_cotidiano + lista_numeros)
 ## Crie uma lista de listas(matriz) que tenha os nomes dos 3 objetos do desafio 1, mas agora dentro de cada item você vai colocar uma informação extra, coloque o valor em reais desse objeto também e imprima na tela.
 
 listaMatriz = [['Garrafa', 50], ['Celular', 1500], ['Fone', 40]]
-print(listaMatriz)
+print(listaMatriz[1][1])
