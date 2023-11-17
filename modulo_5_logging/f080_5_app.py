@@ -14,7 +14,7 @@ critical - Um erro com consequências graves que acaba de ocorrer na aplicação
 # Logging só exibe mensagens do nível warning pra cima por padrão.
 # Para burlar isso usamos basicConfig
 
-logging.basicConfig(level=logging.DEBUG, filename='app.log', filemode='a', format='%(levelname)s - %(message)s') # Setar o nível
+logging.basicConfig(level=logging.DEBUG, filename='f080_app.log', filemode='a', format='%(levelname)s - %(message)s') # Setar o nível
 logging.debug("Logging nível debug")
 logging.info("Logging nível info")
 
